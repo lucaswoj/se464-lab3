@@ -27,11 +27,35 @@
 % following format: "As  a <user role>,  I want  <goal/desire> so  that
 % <benefit>"
 
+Puppet is a system which allows a software engineer to elegantly describe the desired state of a system and use that description to generate a deployment plan and monitor the deployed systems.
+
+More formally, as user stories:
+\begin{itemize}
+\item As a software engineer, I want a powerful and consistent way to describe my infrastructure deployment plan so that it is thourough and easy to maintain.
+\item As a software engineer, I want a way to ensure my infrastructure is always in the correct state so that it is robust and .
+\item As a software engineer, I want an automated way to deploy software to my infrastructure so that it takes minimal time to do a deployment and deployments can be reliably repeated.
+\end{itemize}
+
 \section{Quality Attributes and Scenarios} % (5  marks)
 
 % Make  a list  of  the key quality attributes  that  the system  must  satisfy.
 % Document  each  attribute with  one or more  quality attribute analysis
-% scenario  (see  the lecture material  on  quality attributes  for examples).
+% scenario (see  the lecture material  on  quality attributes  for examples).
+
+\subsection{Robust}
+
+As a ``metasystem" designed to make other systems robust, Puppet must be robust itself.
+
+\subsection{Extensible}
+
+As a general purpose deployment tool, Puppet must be extensible enough to accomadate many different types of systems.
+
+\subsection{Easy to Use}
+
+As a user interface to describe a complex process, Puppet must be
+
+\subsection{Easy to Maintain}
+
 
 \section{Architectural Views} % (10 marks)
 
@@ -61,5 +85,7 @@
 
 % List  the references  to  the resources (books, papers, online  articles,
 % etc.) you used  to  prepare this  report
+
+http://puppetlabs.com/puppet/what-is-puppet
 
 \end{document}
